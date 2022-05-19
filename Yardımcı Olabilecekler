@@ -1,0 +1,28 @@
+#Kendim Örnek
+#Bir aracın 100 kilometrede yaktığı yakıt miktarından kilometrede yaktığı miktarı bul
+a= float(input("100 Kilometrede Yakan Yakıt Miktarınız:"))
+b= float(input("Kaç Kilometre Yol Yapacaksınız:"))
+c= float(input("Yakıtın Litre Fiyatı:"))
+
+denklem = ((a*b)/100)
+
+print("\nYaktığınız Yakıt: {}\n".format(denklem))
+
+denklem2 = denklem*c
+
+print("\nYapacağınız Yolun Tutarı: {}TL\n".format(denklem2))
+
+#Vücut Kitle Endeksi
+a = input("Adınız:")
+b = input("Soyadınız:")
+c = int(input("Yaşınız:"))
+d = float(input("Boyunuz:"))
+e = int(input("Kilonuz:"))
+
+Endeks = e / (d * d)
+
+x1 = Endeks
+
+print("Boy Kilo Endeksiniz: {}\n".format(x1))
+
+print("Olması Gereken Vücut Kitle Endeksi:21")
